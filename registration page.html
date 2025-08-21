@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Page</title>
+</head>
+<body style = "background-color: bisque;">
+    <h2 align="center">Registration Form</h2>
+    <form>
+        <table border="1" align="center" cellpadding="10">
+            <tr>
+                <td><label for="fname">First Name</label></td>
+                <td><input type="text" id="fname" name="fname"></td>
+            </tr>
+
+            <tr>
+                <td><label for="lname">Last Name</label></td>
+                <td><input type="text" id="lname" name="lname"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" id="password" name="password"></td>
+            </tr>
+
+            <tr>
+                <td><label for="confirmpwd">Confirm Password</label></td>
+                <td><input type="password" id="confirmpwd" name="confirmpwd"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male"> Male
+                    <input type="radio" id="female" name="gender" value="female"> Female
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="dob">Date of Birth</label></td>
+                <td><input type="date" id="dob" name="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="zipcode">Zipcode</label></td>
+                <td><input type="text" id="zipcode" name="zipcode"></td>
+            </tr>
+
+            <tr>
+                <td><label for="state">State</label></td>
+                <td>
+                    <select id="state" name="state">
+                        <option value="">--Select State--</option>
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <!-- Add more states as needed -->
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Languages Known</td>
+                <td>
+                    <input type="checkbox" id="lang1" name="languages" value="English"> English
+                    <input type="checkbox" id="lang2" name="languages" value="Hindi"> Hindi
+                    <input type="checkbox" id="lang3" name="languages" value="Telugu"> Telugu
+                    <input type="checkbox" id="lang4" name="languages" value="Tamil"> Tamil
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

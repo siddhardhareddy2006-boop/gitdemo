@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> my login page </title>
+        <script>
+           function fun1 () {
+            var a = document.getElementById("un").value;
+            var b = document.getElementById("pw").value;
+            alert(a + " --- " + b);
+           } 
+           function fun2 (){
+            var a = document.getElementById("un").value="";
+            var b = document.getElementById("pw").value="";
+           }
+        </script>
+    </head>
+    <body>
+        <center>
+            <div id = "div1">
+                <p> Login Box </p>
+                <br/>
+                <br/>
+                username: <input type="text" id="un" />
+                <br/>
+                password: <input type="password" id="pw" />
+                <br/>
+                <br/>
+                <button onclick="fun1()"> Login </button>
+                <button onclick="fun2()"> Clear</button>
+                
+                <div id = "new">  </div>
+                <input type="time">
+                <input type="checkbox">
+                <input type="color">
+                <input type="date">
+                <input type="search">
+            </center>
+        </div>
+        
+    </body>
+</html>
